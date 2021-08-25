@@ -1,0 +1,352 @@
+/* 
+============================
+global css
+============================
+*/
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: 'Poppins', sans-serif;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+a,
+p,
+span,
+hr,
+.btn,
+ul,
+li{
+    padding: 0;
+    margin: 0;
+}
+a{
+    text-decoration: none;
+}
+li{
+    list-style: none;
+}
+/* 
+============================
+global css
+============================
+*/
+
+/* 
+============================
+color & font size css
+============================
+*/
+.t-c-ff{
+    color: #fff;
+}
+.t-c-gr{
+    background: linear-gradient(#4ee36c, #2fb383);
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+}
+/* 
+============================
+color & font size css
+============================
+*/
+
+/* 
+============================
+header css strat here
+============================
+*/
+header{
+    padding: 30px 0;
+}
+.deshboard-btn{
+    text-align: right;
+}
+.desh-btn{
+    background: linear-gradient(#4ee36c, #2fb383);
+    border: none;
+    padding: 5px 30px;
+    border-radius: 50px;
+    font-size: 18px;
+    font-weight: 600;
+    letter-spacing: .8px;
+    text-transform: capitalize;
+    transition: .4s all ease-in-out;
+}
+.desh-btn:hover{
+    letter-spacing: 2px;
+    color: rgb(243, 237, 237);
+}
+/* 
+============================
+header css end here
+============================
+*/
+
+/* 
+============================
+logo css strat here
+============================
+*/
+.logo{
+    padding-top: 80px;
+    padding-bottom: 50px;
+}
+.logo h1{
+    font-size: 90px;
+    font-weight: 700;
+}
+.logo h2{
+    font-size: 60px;
+    font-weight: 700;
+    display: none;
+}
+.buy-btn{
+    background: linear-gradient(#4ee36c, #2fb383);
+    border: none;
+    padding: 5px 30px;
+    border-radius: 50px;
+    font-size: 18px;
+    font-weight: 600;
+    letter-spacing: .8px;
+    text-transform: capitalize;
+    transition: .4s all ease-in-out;
+}
+.buy-btn:hover{
+    letter-spacing: 3px;
+    color: rgb(243, 237, 237);
+}
+.main-img{
+    padding-top: 30px;
+    transition: .4s all ease-in-out;
+}
+.main-img.main-img:hover{
+    transform: scale(1.02);
+}
+/* 
+============================
+logo css end here
+============================
+*/
+
+
+/* 
+============================
+feture css strat here
+============================
+*/
+.feature{
+    padding-bottom: 400px;
+}
+.feture-row{
+    justify-content: center;
+}
+.feture-text h1{
+    font-weight: 700;
+    font-size: 48px;
+    padding-bottom: 60px;
+}
+.feature-box{
+    background: #779e89;
+    padding: 0px 60px 0px 20px;
+    border-radius: 5px;
+    transition: .4s all ease-in-out;
+    margin-bottom: 40px;
+    min-height: 180px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.feature-box:hover{
+    box-shadow: rgba(255, 255, 255, 0.4) 0px 1px 1px 0px inset, rgba(50, 50, 93, 0.3) 0px 50px 100px -20px;
+    transform: translateY(-5px);
+}
+.feature-icon-text{
+
+}
+.feature-icon{
+    margin-right: 20px;
+    width: 18%;
+}
+.feature-icon img{
+    width: 150%;
+}
+.feature-text{
+
+width: 70%;
+}
+.feature-text h1{
+    font-size: 20px;
+    font-weight: 600;
+    padding-bottom: 10px;
+}
+.feature-text p{
+    font-size: 16px;
+    font-weight: 300;
+}
+.fe-b{
+    font-weight: 600;
+}
+/* 
+============================
+feture css end here
+============================
+*/
+
+
+/* 
+============================
+shop-icon css strat here
+============================
+*/
+.shop-icon{
+    padding-bottom: 400px;
+}
+.shop-icon-list{
+
+}
+.shop-icon-list ul{
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+.shop-icon-list ul li{
+    
+}
+.shop-icon-list ul li img{
+    width: 40%;
+    transition: .4s all ease-in-out;
+}
+.shop-icon-list ul li img:hover{
+    transform: scale(1.1);
+}
+/* 
+============================
+shop-icon css end here
+============================
+*/
+/* 
+============================
+testimonial css strat here
+============================
+*/
+.testimonial{
+    padding-bottom: 200px;
+}
+.testimonial-box{
+    background: #779e89;
+    padding: 30px 20px;
+    border-radius: 5px;
+    margin-bottom: 40px;
+    transition: .4s all ease-in-out;
+    min-height: 220px;
+}
+.testimonial-box:hover{
+    transform: translateY(-5px);
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+}
+.testimonial-box h1{
+    font-size: 20px;
+    font-weight: 600;
+    padding-bottom: 10px;
+}
+.testimonial-box p{
+    font-size: 16px;
+    font-weight: 300;
+    color: #fff;
+}
+/* 
+============================
+testimonial css end here
+============================
+*/
+
+
+/* 
+============================
+zendex css strat here
+============================
+*/
+.zen-btn{
+    background: linear-gradient(#4ee36c, #2fb383);
+    border: none;
+    padding: 5px 30px;
+    border-radius: 50px;
+    font-size: 18px;
+    font-weight: 600;
+    letter-spacing: .8px;
+    text-transform: capitalize;
+    transition: .4s all ease-in-out;
+}
+.zen-btn:hover{
+    letter-spacing: 2px;
+    color: rgb(243, 237, 237);
+}
+/* 
+============================
+zendex css end here
+============================
+*/
+
+
+/* 
+============================
+footer css strat here
+============================
+*/
+footer{
+    padding-top: 600px;
+}
+.footer-icon{
+    text-align: right;
+}
+.footer-icon ul{
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+.footer-icon ul li a i{
+    font-size: 40px;
+    color: #000;
+    margin-left: 30px;
+    transition: .2s all ease-in-out;
+}
+.footer-icon ul li a i:hover{
+    background: linear-gradient(#4ee36c, #2fb383);
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+}
+.footer-copyright{
+    padding-top: 80px;
+    padding-bottom: 50px;
+}
+.footer-copyright h1{
+    font-size: 18px;
+    font-weight: 600;
+}
+/* 
+============================
+footer css end here
+============================
+*/
+
+/* 
+============================
+type css strat here
+============================
+*/
+
+/* 
+============================
+type css end here
+============================
+*/
+
+
